@@ -18,39 +18,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\TString.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="..\resource.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="..\Input.h">
+    <ClInclude Include="..\Inferno\Input.h">
       <Filter>Inferno</Filter>
     </ClInclude>
-    <ClInclude Include="..\MyException.h">
+    <ClInclude Include="..\Inferno\MyException.h">
       <Filter>Inferno</Filter>
     </ClInclude>
-    <ClInclude Include="..\MyTypes.h">
+    <ClInclude Include="..\Inferno\MyTypes.h">
       <Filter>Inferno</Filter>
     </ClInclude>
-    <ClInclude Include="..\SimpleWindow.h">
+    <ClInclude Include="..\Inferno\SimpleWindow.h">
       <Filter>Inferno</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TString.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="..\CreationFailed.cpp">
+    <ClCompile Include="..\Inferno\CreationFailed.cpp">
       <Filter>Inferno</Filter>
     </ClCompile>
-    <ClCompile Include="..\Exception.cpp">
+    <ClCompile Include="..\Inferno\Exception.cpp">
       <Filter>Inferno</Filter>
     </ClCompile>
-    <ClCompile Include="..\Input.cpp">
+    <ClCompile Include="..\Inferno\Input.cpp">
       <Filter>Inferno</Filter>
     </ClCompile>
-    <ClCompile Include="..\SimpleWindow.cpp">
+    <ClCompile Include="..\Inferno\SimpleWindow.cpp">
       <Filter>Inferno</Filter>
     </ClCompile>
   </ItemGroup>

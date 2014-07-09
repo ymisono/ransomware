@@ -44,6 +44,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\esdmem\Documents\Visual Studio 2013\Projects\Ransomware\Inferno;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -77,19 +78,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Input.h" />
-    <ClInclude Include="..\MyException.h" />
-    <ClInclude Include="..\MyTypes.h" />
+    <ClInclude Include="..\Inferno\Input.h" />
+    <ClInclude Include="..\Inferno\MyException.h" />
+    <ClInclude Include="..\Inferno\MyTypes.h" />
+    <ClInclude Include="..\Inferno\SimpleWindow.h" />
     <ClInclude Include="..\resource.h" />
-    <ClInclude Include="..\SimpleWindow.h" />
     <ClInclude Include="..\TString.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\CreationFailed.cpp" />
-    <ClCompile Include="..\Exception.cpp" />
-    <ClCompile Include="..\Input.cpp" />
+    <ClCompile Include="..\Inferno\CreationFailed.cpp" />
+    <ClCompile Include="..\Inferno\Exception.cpp" />
+    <ClCompile Include="..\Inferno\Input.cpp" />
+    <ClCompile Include="..\Inferno\SimpleWindow.cpp" />
     <ClCompile Include="..\Main.cpp" />
-    <ClCompile Include="..\SimpleWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Ransomware.rc" />

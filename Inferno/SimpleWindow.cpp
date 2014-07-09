@@ -3,9 +3,9 @@
 #include<Windows.h>
 #include<tchar.h>
 #include"MyException.h"
-#include"TString.h"
+#include"..\TString.h"
 #include"MyTypes.h"
-#include"resource.h"
+#include"..\resource.h"
 
 extern Inferno::Input* g_GlobalInput; //‚Æ‚è‚ ‚¦‚¸
 
