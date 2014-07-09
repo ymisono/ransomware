@@ -13,42 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Inferno">
+      <UniqueIdentifier>{03e6dd0d-de8f-4b09-a064-9442167fc589}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\MyException.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="..\MyTypes.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SimpleWindow.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="..\TString.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Input.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="..\resource.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="..\Input.h">
+      <Filter>Inferno</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MyException.h">
+      <Filter>Inferno</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MyTypes.h">
+      <Filter>Inferno</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimpleWindow.h">
+      <Filter>Inferno</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SimpleWindow.cpp">
+    <ClCompile Include="..\Main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="..\CreationFailed.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>Inferno</Filter>
     </ClCompile>
     <ClCompile Include="..\Exception.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>Inferno</Filter>
     </ClCompile>
     <ClCompile Include="..\Input.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>Inferno</Filter>
     </ClCompile>
-    <ClCompile Include="..\Main.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="..\SimpleWindow.cpp">
+      <Filter>Inferno</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
