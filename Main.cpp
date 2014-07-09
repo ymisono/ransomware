@@ -5,7 +5,7 @@
 #include"SimpleWindow.h"
 //#include"resource.h"
 
-int WINAPI WinMain(	HINSTANCE hInstance, HINSTANCE , LPSTR, int)
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE , LPSTR, int)
 {
 	// フォルダーの位置を入れるためのバッファ 
 	TCHAR myDocumentsFolder[MAX_PATH];
